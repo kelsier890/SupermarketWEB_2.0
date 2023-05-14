@@ -6,6 +6,6 @@
         public string Name { get; set; }
 
         public string? Description { get; set; }
-        public ICollection<Product> products { get; set; } //Propiedad de navegación
+        public ICollection<Product>? products { get; set; } //Propiedad de navegación
     }
 }
